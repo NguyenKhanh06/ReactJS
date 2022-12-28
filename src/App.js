@@ -22,9 +22,8 @@ function App() {
       </header>
       <MessengerChat
     pageId="115765374723046"
-    language="sv_SE"
+    language="VIE"
     themeColor={"#000000"}
-    bottomSpacing={300}
     loggedInGreeting="loggedInGreeting"
     loggedOutGreeting="loggedOutGreeting"
     greetingDialogDisplay={"show"}
