@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { MessengerChat } from "react-messenger-chat-plugin";
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,34 @@ function App() {
         </a>
         
       </header>
+      <MessengerChat
+    pageId="115765374723046"
+    language="sv_SE"
+    themeColor={"#000000"}
+    bottomSpacing={300}
+    loggedInGreeting="loggedInGreeting"
+    loggedOutGreeting="loggedOutGreeting"
+    greetingDialogDisplay={"show"}
+    debugMode={true}
+    onMessengerShow={() => {
+      console.log("onMessengerShow");
+    }}
+    onMessengerHide={() => {
+      console.log("onMessengerHide");
+    }}
+    onMessengerDialogShow={() => {
+      console.log("onMessengerDialogShow");
+    }}
+    onMessengerDialogHide={() => {
+      console.log("onMessengerDialogHide");
+    }}
+    onMessengerMounted={() => {
+      console.log("onMessengerMounted");
+    }}
+    onMessengerLoad={() => {
+      console.log("onMessengerLoad");
+    }}
+  />,
     </div>
   );
 }
