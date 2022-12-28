@@ -22,7 +22,7 @@ function App() {
       </header>
       <MessengerChat
     pageId="115765374723046"
-    language="VIE"
+    language="VI"
     themeColor={"#000000"}
     loggedInGreeting="loggedInGreeting"
     loggedOutGreeting="loggedOutGreeting"
